@@ -38,7 +38,6 @@ param(
 $scopes = @(
 "User.ReadWrite.All"
 "Directory.ReadWrite.All"
-"Directory.AccessAsUser.All"
 )
 
 Connect-MgGraph -TenantId $TenantId -ContextScope Process -Scopes $scopes
