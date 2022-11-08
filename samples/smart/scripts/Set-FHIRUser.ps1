@@ -2,7 +2,7 @@ Import-Module Microsoft.Graph.Users
 
 Select-MgProfile -Name "beta"
 
-Disconnect-MgGraph
+#Disconnect-MgGraph
 <#
 .SYNOPSIS
 	Associate an Azure AD User with a FHIR Patient.
